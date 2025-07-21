@@ -1,0 +1,11 @@
+# Solving the problem
+- We are instructed that the pw for the next level is a file called `-`
+    - Doing ls -l, lists the files in the dir and there is in fact a `-` in there, but... we cannot directly do `cat -`, it wont work, itll just hang waiting for input. Because we are basically using cat, followed by a `-` that is how we provide an [OPTION] and since we are not providing anything its like just typing `cat`, so it waits for input.
+    - The reason for this conflict is that in UNIX, command options start with a dash (-) such as ls -a for list files in directory including all
+    - So if we do `man cat` we quickly see that cat can be called with a bunch of options
+- We need to specifiy the path to the file in order to interact with it using a command
+    - in this case we would do `cat ./-`
+    - since we are in the current directory, the `.`
+- Password extracted
+    -   263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+- Proceeding to SSH to **bandit2**

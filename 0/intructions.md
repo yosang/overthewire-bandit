@@ -8,7 +8,8 @@ Commands you may need to solve this level
 ssh
 # Helpful Reading Material
 
-    Secure Shell (SSH) on Wikipedia
-    How to use SSH on wikiHow
+[Secure Shell (SSH) on Wikipedia](https://en.wikipedia.org/wiki/Secure_Shell)
+
+[How to use SSH on wikiHow](https://www.wikihow.com/Use-SSH)
 
 
