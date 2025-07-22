@@ -1,0 +1,10 @@
+- This one asks us to find the file **somewhere in the server**
+    - means its not necessarily in home, so we cd to `/` which is the servers directory
+- We are then instructed to find a file owned by bandit7, group bandit6 and 33 bytes in size
+    - we use the `find` command here as well
+    - `find -user bandit7 -group bandit6 -size 33c`
+- The result is quite extensive and most of the files say `permission denied`. Apart fro one file, which looks quite like what we want
+    - `./var/lib/dpkg/info/bandit7.password`
+    - we `cat` it and found the password inside
+- Password found
+    - morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
