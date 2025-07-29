@@ -5,13 +5,13 @@ In order for us to get started with decompressing, we actual need to convert thi
 
 https://tldr.inbrowser.app/pages/common/xxd
 
-The option to revert a hexdump to a binary is -i
+The flag to revert a hexdump to a binary is `-r`
 
 ```bash
 xxd -r data.txt newfile.txt
 ```
 
-We run the code to create a new file, and use `file` on the new file to inspect it
+We run the code to create a new file, and use `file` to inspect it
 
 ```bash
 bandit12@bandit:/tmp/myarch$ xxd -r data.txt newdata.txt
