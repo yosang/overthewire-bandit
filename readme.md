@@ -1,5 +1,5 @@
 # Project
-This repo holds my olutions for the bandit game from overthewire
+This repo holds my solutions for the bandit game from overthewire
 
 site: https://overthewire.org/wargames/bandit
 
@@ -31,7 +31,7 @@ Every level requires us to find a password, that we need in order to move on to 
 
 Read the instructions, to figure out how to extract the password for the next level.
 
-# Pup
+# Level instructions
 Im using pup to generate the `instructions.md` files, with `curl` and `pup` to parse the html level descriptions.
 
 ```bash
@@ -39,3 +39,6 @@ curl https://overthewire.org/wargames/bandit/bandit13.html | pup '#content' > in
 ```
 
 You can install `pup` from the main repo here: https://github.com/ericchiang/pup
+
+# Level notes
+I will be writing down my though process for every level on a `notes.md` file, with the password or the next level at the end.
